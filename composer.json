@@ -16,7 +16,7 @@
   ],
   "require": {
           "yiisoft/yii2": "*",
-          "fooplugins/footable": "*"
+          "filsh/footable": "*"
   },
   "autoload": {
           "psr-0": { "yii\\footable\\": "" }
