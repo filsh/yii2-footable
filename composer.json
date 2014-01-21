@@ -1,0 +1,25 @@
+{
+  "name": "filsh/yii2-footable",
+  "description": "Responsive ListView for Yii2 framework",
+  "keywords": ["yii", "bootstrap", "footable"],
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "support": {
+          "email": "imaliy.filsh@gmail.com",
+          "source": "https://github.com/filsh/yii2-footable"
+  },
+  "authors": [
+          {
+                  "name": "Igor Maliy",
+                  "email": "imaliy.filsh@gmail.com"
+          }
+  ],
+  "require": {
+          "yiisoft/yii2": "*",
+          "fooplugins/footable": "*"
+  },
+  "autoload": {
+          "psr-0": { "yii\\footable\\": "" }
+  },
+  "target-dir": "yii/footable"
+}
