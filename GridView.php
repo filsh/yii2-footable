@@ -2,6 +2,8 @@
 
 namespace yii\footable;
 
+use yii\helpers\Json;
+
 class GridView extends \yii\grid\GridView
 {
     public $footableOptions = [];

@@ -12,11 +12,6 @@ class FootableAsset extends \yii\web\AssetBundle
         'js/footable.js'
     ];
     
-    public $css = [
-        'less/footable.core.less',
-        'less/footable.metro.less'
-    ];
-    
     public $depends = [
         'yii\web\JqueryAsset'
     ];
